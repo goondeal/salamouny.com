@@ -45,6 +45,11 @@
     background-size: cover;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -52,7 +57,6 @@ header .container {
     border-bottom: 1px solid #EEE;
     min-height: 52px;
     padding: 0px;
-    position: fixed;
 }
 
 header h1 {
