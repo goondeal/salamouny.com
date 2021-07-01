@@ -36,6 +36,8 @@
 
 /* End General */
 
+
+
 .first {
     height: 800px;
     background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.25) 0%, rgba(22, 22, 22, 0.25) 100%), url(../rs=w_1920\,m.webp), url(//img1.wsimg.com/isteam/stock/nydwkep/:/rs=w:50,cg:true,mx/qt=q:1);
@@ -43,7 +45,6 @@
     background-attachment: fixed;
     background-position-x: center;
     background-size: cover;
-    display: flex;
 }
 
 header {
@@ -117,6 +118,11 @@ header nav ul li a {
     font-size: 1.4em;
 }
 
+/* Start Jobs Section */
+/* End Jobs Section */
+
+
+
 /* Start Contact Section */
 
 #contact {
@@ -124,8 +130,16 @@ header nav ul li a {
     padding: 16px 0px;
 }
 
+#contact .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
 #contact p {
     color: #fff;
+    display: inline-block;
+    flex-wrap: wrap;
     margin: 16px 0px;
     font-size: 1.4em;
 }
@@ -137,7 +151,7 @@ header nav ul li a {
 
 #contact p a {
     color: #fff;
-    margin: 0px 16px;
+    margin: 0px 4px;
     text-decoration: none;
 }
 
@@ -147,6 +161,12 @@ header nav ul li a {
 }
 
 /* End Contact Section */
+
+
+
+
+
+
 
 /* Start Footer */
 

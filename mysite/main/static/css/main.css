@@ -116,6 +116,31 @@ header nav ul li a {
     font-size: 1.4em;
 }
 
+/* Start projects Section */
+
+#projects {
+    padding: 48px 0;
+    background-color: #EEE;
+}
+
+#projects .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: space-between;
+    row-gap: 4.6em;
+}
+
+.project {
+    display: inline-block;
+}
+
+.project-img {
+    width: 300px;
+    height: 400px;
+}
+
+/* End projects Section */
+
 /* Start Contact Section */
 
 #contact {
@@ -123,8 +148,16 @@ header nav ul li a {
     padding: 16px 0px;
 }
 
+#contact .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
 #contact p {
     color: #fff;
+    display: inline-block;
+    flex-wrap: wrap;
     margin: 16px 0px;
     font-size: 1.4em;
 }
@@ -136,7 +169,7 @@ header nav ul li a {
 
 #contact p a {
     color: #fff;
-    margin: 0px 16px;
+    margin: 0px 4px;
     text-decoration: none;
 }
 
