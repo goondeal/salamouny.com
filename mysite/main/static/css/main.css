@@ -84,7 +84,6 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    /* text-decoration: underline; */
     background-color: rgba(230, 230, 230, 0.5);
 }
 
@@ -132,11 +131,25 @@ header nav ul li a {
 
 .project {
     display: inline-block;
+    background-color: #fff;
+    padding: 6px;
+    overflow: hidden;
 }
 
 .project-img {
-    width: 300px;
+    /* width: 300px; */
     height: 400px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/* .project-img-div {
+    overflow: hidden;
+} */
+
+.project-name {
+    padding: 8px 0px;
 }
 
 /* End projects Section */
@@ -183,11 +196,10 @@ header nav ul li a {
 /* Start Footer */
 
 footer {
-    background-color: #000;
-    padding: 20px 0px;
+    background-color: #282828;
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
-    /* margin-top: 16px;
-    margin-bottom: 0px; */
 }
 
 footer .container {

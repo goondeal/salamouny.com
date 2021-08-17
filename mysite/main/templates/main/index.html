@@ -53,13 +53,10 @@
       <div class="container">
         {% for project in projects %}
         <div class="project">
-          <div class="project-img-div">
-            <img
-              class="project-img"
-              src="{{ project.img.url }}"
-              alt="{{ project.name }}"
-            />
-          </div>
+          <div
+            class="project-img"
+            style="background-image: url({{ project.img.url }})"
+          ></div>
           <h3 class="project-name">{{ project.name }}</h3>
           <p class="project-type">{{ project.type.name}}</p>
         </div>
